@@ -1,7 +1,7 @@
 nanogenmo2014
 =============
 
-project for DariusK's National Novel Generation Month
+project for DariusK's National Novel Generation Month: https://github.com/dariusk/NaNoGenMo-2014/
 
 This stuff uses the pattern library from http://www.clips.uantwerpen.be/pattern - really simple twitter scraping and linguistic analysis!
 
