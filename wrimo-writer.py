@@ -74,7 +74,10 @@ def randomarc():
 
 # arc of n steps using function f 
 def arc(f, n):
-	return [f(float(i)/(n-1)) for i in range(0, n)]
+	if n == 1:
+		return [f(0)]
+	else:
+		return [f(float(i)/(n-1)) for i in range(0, n)]
 		
 
 
