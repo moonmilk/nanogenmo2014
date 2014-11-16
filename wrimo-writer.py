@@ -17,16 +17,16 @@ for arg in sys.argv[1:]:
 	with open(arg) as jsonfile:
 		t = json.loads(jsonfile.read())
 		sentences = sentences + t
-		print "loading", arg, "with", len(t), "sentences"
+		#print "loading", arg, "with", len(t), "sentences"
 
-print "Total:", len(sentences), "sentences."
+#print "Total:", len(sentences), "sentences."
 
 wordcount = 0
 for sentence in sentences:
 	words = sentence['sentence'].split()
 	wordcount = wordcount + len(words)
 	
-print "Total words:", wordcount
+#print "Total words:", wordcount
 
 # make up some stuff about the book's structure
 #   number of chapters - are they long or short?
