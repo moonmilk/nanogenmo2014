@@ -5,6 +5,8 @@ project for DariusK's National Novel Generation Month: https://github.com/darius
 
 This stuff uses the Pattern library from http://www.clips.uantwerpen.be/pattern - really simple twitter scraping and linguistic analysis!
 
+The novel idea: scraping twitter for tweets about #NaNoWriMo and assembling them into a book.
+
 * wrimo-titler.py: Can't think of a title for your novel? Let wrimo-titler steal one for you. Searches twitter for people posting title ideas for #nanowrimo and extracts the ideas. Sample run:
 
 ```
