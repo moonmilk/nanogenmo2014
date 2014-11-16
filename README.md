@@ -28,7 +28,7 @@ Will grab tweets with the hashtag #NaNoWriMo (or whatever you change it to) unti
 The grabber also runs Pattern's sentiment analysis tool on each sentence, because why not?
 
 ## wrimo-writer.py ##
-Give it the json files from grabber and it will write your novel for you. The output is in markdown format. Example usage: `python wrimo-writer.py sentences.json sentences2.json > mynovel.md`
+Give it the json files from grabber and it will write your novel for you. Use wrimo-titler to steal a title (or make up your own, if you must), and edit it into the TITLE variable. The output is in markdown format. Example usage: `python wrimo-writer.py sentences.json sentences2.json > mynovel.md` 
 
 ## novelette1.md ##
 Sample output from wrimo-writer. It's not a full novel, only 32,000 words, because I haven't collected enough tweets yet to make a full 50K.
