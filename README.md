@@ -30,5 +30,8 @@ The grabber also runs Pattern's sentiment analysis tool on each sentence, becaus
 ## wrimo-writer.py ##
 Give it the json files from grabber and it will write your novel for you. Use wrimo-titler to steal a title (or make up your own, if you must), and edit it into the TITLE variable. The output is in markdown format. Example usage: `python wrimo-writer.py sentences.json sentences2.json > mynovel.md` 
 
-## novelette1.md ##
+## novelette1.md and novelette2.md ##
 Sample output from wrimo-writer. It's not a full novel, only 32,000 words, because I haven't collected enough tweets yet to make a full 50K.
+
+## novelette3.md, .html, .pdf and wrimo.css ##
+Learning how to use print css to make the PDF look more like a cheap paperback and less like the printout from a web browser. css @page object and widows, orphans, and page-break-before properties allow some simple but effective page formatting. I also added a slightly tacky free google font to further distance the resulting look from default browser printouts.
