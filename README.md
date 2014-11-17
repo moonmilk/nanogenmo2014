@@ -37,3 +37,6 @@ Sample output from wrimo-writer. It's not a full novel, only 32,000 words, becau
 Learning how to use print css to make the PDF look more like a cheap paperback and less like the printout from a web browser. css @page object and widows, orphans, and page-break-before properties allow some simple but effective page formatting. I also added a slightly tacky free google font to further distance the resulting look from default browser printouts.
 
 I used multimarkdown <http://fletcherpenney.net/multimarkdown/> to turn wrimo-writer's markdown output into html, edited the html slightly to add the font, stylesheet, and title page, opened the html in Chrome and printed to PDF to make the output file.
+
+## novel.md, .html, and .pdf ##
+The finished novel, 50500 words.
