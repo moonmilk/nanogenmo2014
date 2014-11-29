@@ -19,10 +19,16 @@ h1 {
 	padding-bottom: 0.5in;
 }
 
+.subtitle {
+	text-align: center;
+	font-size: 55%;
+}
+
 h2 {
 	page-break-before: right;
 	padding-top: 2in;
 }
+
 
 .author {
 	font-size: 130%;
